@@ -1,3 +1,5 @@
+# Ciclo mientras que (While)
+
 La estructura de ciclo While es una de las mas documentadas, el proposito de las estructuras ciclicas es repetir instrucciones o fragmentos de código.
 
 La sintaxis para este lenguaje es la siguiente:
