@@ -45,7 +45,8 @@ do{
 }while (num <= 9);
 ```
 
-> **IMPORTANTE:** Tener en cuenta que el hilo de ejecución para comprender que la primera vez siempre ejecutara las instrucciones que estan en el interior del bloque.
+:key: **IMPORTANTE:**
+>Tener en cuenta que el hilo de ejecución para comprender que la primera vez siempre ejecutara las instrucciones que estan en el interior del bloque.
 
 ## Para (for)
 
@@ -60,4 +61,5 @@ for (num=1; num <= 5; num++){
 }
 ```
 
-> **IMPORTANTE:**  Es muy común usar este ciclo para recorrer estructuras de datos como los Array.
+:key: **IMPORTANTE:**
+>Es muy común usar este ciclo para recorrer estructuras de datos como los Array.
