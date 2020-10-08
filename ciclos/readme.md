@@ -4,12 +4,11 @@ Un ciclo es una estructura de programación que permite repetir un bloque de ins
 
 Los ciclos mas utilizados son:
 **Índice**
-1. [Ciclo mientras que (While)](#id1)
+1. [Ciclo mientras que (While)](## Ciclo mientras que (While))
 2. [Ciclo haga hasta (do/while)](#id2)
 
 
-<div id='id1' />
-## Ciclo mientras que (While)
+(## Ciclo mientras que (While))
 
 La estructura de ciclo While es una de las mas documentadas, el proposito de las estructuras ciclicas es repetir instrucciones o fragmentos de código.
 
