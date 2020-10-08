@@ -25,6 +25,11 @@ while (n <= 10){
 
 > **IMPORTANTE:**  Es muy común cuando se esta empezando, cometer un error en este tipo de bucles. Los bucles While SIEMPRE tienen que modificar los valores de la condición...En este caso, la "n", dentro del bucle se tiene que modificar...porque si no nunca va a ser falsa la condición, y por tanto se producirá un bucle infinito.
 
+:fire: **RETO:** Construir una pagina que solicite al usuario registrar números menores a 10 y debe imprimirlos en la pagina.
+
+La acción de solicitar número terminara cuando el usuario registre un número mayor a 10.
+
+
 ## Haga hasta (do/while)
 
 Lo interesante es qué al menos se ejecuta una vez el bloque de código que se encuentra dentro de la estructura.
