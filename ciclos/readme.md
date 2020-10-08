@@ -4,6 +4,10 @@ Un ciclo es una estructura de programación que permite repetir un bloque de ins
 
 Los ciclos mas utilizados son:
 
+* [Mientras que (While)](#mientras-que-while)
+* [Haga hasta (do/while)](#haga-hasta-dowhile)
+* [Para (for)](#para-for)
+
 ## Mientras que (While)
 
 La estructura de ciclo While es una de las mas documentadas, el proposito de las estructuras ciclicas es repetir instrucciones o fragmentos de código.
