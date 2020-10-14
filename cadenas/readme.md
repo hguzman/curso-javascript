@@ -7,6 +7,7 @@ En JavaScript las cadenas de caracteres se manejan con un objeto de la clase Str
 * [Longitud de una cadena](#Longitud-de-una-cadena)
 * [Concatenar cadenas](#Concatenar-cadenas)
 * [Convertir a cadena de caracteres](#Convertir-a-cadena-de-caracteres)
+* [Extraer un caracter](#Extraer-un-caracter)
 
 
 ## Instanciar un objeto String
@@ -95,4 +96,16 @@ document.write( s4 + "<br />" );   // Devuelve: "true"
 document.write( s5 + "<br />" );   // Devuelve: "false"
 document.write( s6 + "<br />" );   // Devuelve: "Tue May 17 14:41:53 UTC+0100 2011"
 document.write( s7 + "<br />" );   // Devuelve: "10/05/2011"
+```
+
+## Extraer un caracter
+Para extraer un caracter de una cadena utilizaremos el  método charAt() de la clase String, acompañado de la posición dentro del Array de caracteres 
+
+:point_right:**EJEMPLO:**
+
+```javascript
+var cadena = "Aprendiendo a programar en javaScript";
+
+document.write( cadena.charAt(0) + "<br />" );  // Devuelve 'A'
+document.write( cadena.charAt(2) + "<br />" );  // Devuelve 'r'
 ```
