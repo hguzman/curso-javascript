@@ -8,6 +8,7 @@ En JavaScript las cadenas de caracteres se manejan con un objeto de la clase Str
 * [Concatenar cadenas](#Concatenar-cadenas)
 * [Convertir a cadena de caracteres](#Convertir-a-cadena-de-caracteres)
 * [Extraer un caracter](#Extraer-un-caracter)
+* [Buscar en una cadena](#buscar-en-una-cadena)
 
 
 ## Instanciar un objeto String
