@@ -3,6 +3,11 @@
 En JavaScript las cadenas de caracteres se manejan con un objeto de la clase String, el cual expone algunos atributos y metodos que nos facilitan el trabajo con cadenas de texto, a continuación algunos apuntes importantes.
 
 * [Instanciar un objeto string](#Instanciar-un-objeto-String)
+* [Convertir mayúsculas y minúscula](#Convertir-mayúsculas-y-minúscula)
+* [Longitud de una cadena](#Longitud-de-una-cadena)
+* [Concatenar cadenas](#Concatenar-cadenas)
+* [Convertir a cadena de caracteres](#Convertir-a-cadena-de-caracteres)
+
 
 ## Instanciar un objeto String
 Podemos instanciar un objeto de la clase String y evidenciar su estructura, atributos y metodos.
