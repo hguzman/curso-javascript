@@ -38,7 +38,7 @@ console.log(cadena.length);  // Devuelve 37
 ```
 
 ## Concatenar cadenas
-Para concatenar cadenas de texto se puede utilizar el operador **+** como se muestra en el siguiente
+Para concatenar cadenas de texto se puede utilizar el operador `+` como se muestra en el siguiente
 
 :point_right:**EJEMPLO:**
 
@@ -52,7 +52,7 @@ var cadena3 = "JavaScript";
 console.log(cadena4);  // Devuelve "Aprendiendo a programar en JavaScript"
 ```
 
-Otra forma de hacerlo es utilizando el metodo concat() de la clase String()
+Otra forma de hacerlo es utilizando el metodo **concat()** de la clase **String()**
   
 :point_right:**EJEMPLO:**
 
@@ -64,4 +64,27 @@ var cadena3 = "JavaScript";
 var cadena4 = cadena1.concat( cadena2, " ", cadena3 );
 
 console.log(cadena4);  // Devuelve "Aprendiendo a programar en JavaScript"
+```
+
+## Convertir a cadena de caracteres
+Podemos convertir un número a cadena concatenando un número con una cadena usando el operador `+`, o bien con la función String() (**no el Objeto del mismo nombre**)
+
+:point_right:**EJEMPLO:**
+
+```javascript
+var s1 = "C/Redonda nº " + 3;
+var s2 = String(33);
+var s3 = String("44 55");
+var s4 = String(true);
+var s5 = String(false);
+var s6 = String( new Date() );
+var s7 = String("10/05/2011");
+
+document.write( s1 + "<br />" );   // Devuelve: "C/Redonda nº 3"
+document.write( s2 + "<br />" );   // Devuelve: "33"
+document.write( s3 + "<br />" );   // Devuelve: "44 55"
+document.write( s4 + "<br />" );   // Devuelve: "true"
+document.write( s5 + "<br />" );   // Devuelve: "false"
+document.write( s6 + "<br />" );   // Devuelve: "Tue May 17 14:41:53 UTC+0100 2011"
+document.write( s7 + "<br />" );   // Devuelve: "10/05/2011"
 ```
