@@ -1,6 +1,7 @@
 # curso-javascript
 Curso de javascript SENA
 
-1. [Cadenas](cadenas/readme.md)
-2. [Ciclos](ciclos/readme.md)
-3. [Acumuladores](acumuladores/readme.md)
+1. [Introducción](introduccion/readme.md)
+2. [Cadenas](cadenas/readme.md)
+3. [Ciclos](ciclos/readme.md)
+4. [Acumuladores](acumuladores/readme.md)
