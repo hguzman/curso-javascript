@@ -109,3 +109,44 @@ var cadena = "Aprendiendo a programar en javaScript";
 document.write( cadena.charAt(0) + "<br />" );  // Devuelve 'A'
 document.write( cadena.charAt(2) + "<br />" );  // Devuelve 'r'
 ```
+
+## Buscar en una cadena
+En ocasiones necesitaremos averiguar si una cadena de texto en JavaScript contiene a su vez un determinado texto. En tales casos haremos uso del método **indexOf()**, que realizará la búsqueda distinguiendo entre mayúsculas y minúsculas.
+Se devolverá la posición en la comienza el texto buscado en la cadena, o bien -1 en caso de que no se encuentre el texto buscado
+
+:point_right:**EJEMPLO:**
+
+```javascript
+var cadena = "Aprendiendo a programar en JavaScript";
+
+document.write( cadena.indexOf("JAVASCRIPT") + "<br />" );  // Devuelve -1
+document.write( cadena.indexOf("JavaScript") + "<br />" );  // Devuelve 27
+```
+
+Podemos indicar que la búsqueda debe comenzar a partir de una determinada posición, indicándola como segundo parámetro
+
+:point_right:**EJEMPLO:**
+
+```javascript
+var cadena = "Aprendiendo a programar en JavaScript";
+alert( cadena.indexOf("programar", 23) );  // Devuelve -1
+```
+
+En este caso se devuelve -1 porque aunque la palabra 'programar' se encuentra en la cadena de texto, la búsqueda comienza después de ella.
+También disponemos del método **lastIndexOf()**, que devolverá la posición de la última ocurrencia de una cadena dentro de otra, o -1 en caso de que el texto a buscar no se encontrase
+
+```javascript
+var cadena = "Curso de JavaScript: aprendiendo a programar en JavaScript";
+alert( cadena.lastIndexOf("JavaScript") );  // Devuelve 48
+```
+
+Como vemos, se devuelve la posición 48 aunque la palabra 'JavaScript' se encuentra también en la posición 9 anterior.
+Por último, podemos usar también el método **search()**, que al igual que **indexOf()** diferencia entre mayúsculas y minúsculas y devuelve la posición en que se halle el texto dentro de la cadena de texto, o bien -1 si no se ha encontrado
+
+```javascript
+var cadena = "Aprendiendo a programar en JavaScript";
+alert( cadena.search("JavaScript") );  // Devuelve 27
+```
+
+:key:**IMPORTANTE:**
+>El método **search()** es usado principalmente con expresiones regulares.
