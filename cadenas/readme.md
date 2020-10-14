@@ -8,3 +8,6 @@ Podemos instanciar un objeto de la clase String y evidenciar su estructura, atri
 var objCadena = new String("Aprendiendo a programar en javaScript");
 alert( objCadena );
 ```
+
+:exclamation:**Alerta:**
+>La cadena carga en una estructura tipo **Array** y el primer caracter tiene la posición 0 (cero) 
