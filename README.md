@@ -16,3 +16,4 @@ Curso de javascript SENA
      2. Haga hasta (do/while)
      3. Para (for)
 4. [Acumuladores](acumuladores/readme.md)
+5. [Funciones](funciones/readme.md)
