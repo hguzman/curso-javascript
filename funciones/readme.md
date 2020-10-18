@@ -32,3 +32,9 @@ n3 = 2;
 
 suma(n1, n2, n3);
 ```
+
+:key: **EJERCICIO:**
+Hacer un programa que utilice una función para realizar operaciones matemáticas basicas, la función debe recibir 3 parametros como se describe a continuación
+* Parametro 1: Un numero que indica la operación que se realizara (1 = Suma, 2 = resta, 3 = Multiplicación, 4 = división)
+* Parametro 2: Primer número objeto de la operación matemática
+* Parametro 3: Segundo número objeto de la operación matemática
