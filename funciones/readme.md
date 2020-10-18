@@ -38,3 +38,20 @@ Hacer un programa que utilice una función para realizar operaciones matemática
 * Parametro 1: Un numero que indica la operación que se realizara (1 = Suma, 2 = resta, 3 = Multiplicación, 4 = división)
 * Parametro 2: Primer número objeto de la operación matemática
 * Parametro 3: Segundo número objeto de la operación matemática
+
+
+## Funciones que devuelven valores
+
+Una de las caracterisiticas mas importantes de una función es que pueda devolver un valor, esta caracteristica permite matener independencia del programa principal.
+
+```javascript
+function suma(num1, num2){
+  var n = num1 + num2;
+  return n;
+}
+
+var resultado = suma(3, 5);
+
+document.write('La suma es: ', resultado);
+```
+
