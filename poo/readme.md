@@ -32,4 +32,7 @@ fecha.getFullYear();
 
 ### Metodos
 
-* `getFullYear()`Año actual
+* `getFullYear()`Año (actual)
+* `getHours()`Horas (actual)
+* `getMinutes()` Minutos (actual)
+* `getSeconds()`Segundos (actual)
