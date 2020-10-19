@@ -23,4 +23,9 @@ La clase Date por ejemplo tiene la estructura necesaria para construir objetos q
 
 ```javascript
 var fecha = new Date();
+fecha.getFullYear();
+// Muestra el año actual
 ```
+
+**NOTA:**
+>De debe tener en cuenta la notación punto para accedes a los atributos y metodos
