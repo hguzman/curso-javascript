@@ -18,3 +18,4 @@ Curso de javascript SENA
 4. [Acumuladores](acumuladores/readme.md)
 5. [Funciones](funciones/readme.md)
 6. [POO (Programación orientada a objetos)](poo/readme.md)
+     1. Clases
