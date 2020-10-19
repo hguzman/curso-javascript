@@ -29,3 +29,7 @@ fecha.getFullYear();
 
 **NOTA:**
 >De debe tener en cuenta la notación punto para accedes a los atributos y metodos
+
+### Metodos
+
+* `getFullYear()`Año actual
