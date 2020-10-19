@@ -21,3 +21,4 @@ Curso de javascript SENA
      2. Funciones que devuelven valores
 6. [POO (Programación orientada a objetos)](poo/readme.md)
      1. Clases
+     2. Clase Date
