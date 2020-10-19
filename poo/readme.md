@@ -15,3 +15,12 @@ Una clase es una estructura necesaria para crear los diferentes objetos
 ![clase persona](https://www.campusmvp.es/recursos/image.axd?picture=/2019/4T/poo-clase-objetos.png)
 
 ![clase homero](https://ferestrepoca.github.io/paradigmas-de-programacion/poo/poo_teoria/images/philosophy.png)
+
+## Clase Date
+Javascript como lenguaje de programación implementa el paradigma Orientado a Objetos, por lo cual ya tiene algunas clases definidas por defecto.
+
+La clase Date por ejemplo tiene la estructura necesaria para construir objetos que permiten hacer operaciones con fechas.
+
+```javascript
+var fecha = new Date();
+```
