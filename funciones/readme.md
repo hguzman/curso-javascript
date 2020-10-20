@@ -1,6 +1,6 @@
 # Funciones
 
-Es un bloque de codigo empaquetado y aislado que realiza una tarea específica, cone el proposito es reutilizar codigo 
+Es un bloque de codigo empaquetado y aislado que realiza una tarea específica, con el proposito de reutilizar codigo 
 
 ```javascript
 //definimos la función, que en este caso la llamamos saludo()
