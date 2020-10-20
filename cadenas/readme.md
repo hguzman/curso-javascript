@@ -1,6 +1,6 @@
 # Manejo de cadenas
 
-En JavaScript las cadenas de caracteres se manejan con un objeto de la clase String, el cual expone algunos atributos y metodos que nos facilitan el trabajo con cadenas de texto, a continuación algunos apuntes importantes.
+En JavaScript las cadenas de caracteres se manejan con un objeto de la clase String, el cual expone algunos atributos y métodos que nos facilitan el trabajo con cadenas de texto, a continuación, algunos apuntes importantes.
 
 * [Instanciar un objeto string](#Instanciar-un-objeto-String)
 * [Convertir mayúsculas y minúscula](#convertir-may%C3%BAsculas-y-min%C3%BAsculas)
@@ -12,19 +12,19 @@ En JavaScript las cadenas de caracteres se manejan con un objeto de la clase Str
 
 
 ## Instanciar un objeto String
-Podemos instanciar un objeto de la clase String y evidenciar su estructura, atributos y metodos.
+Podemos instanciar un objeto de la clase String y evidenciar su estructura, atributos y métodos.
 
-```javascript
+```javaScript
 var objCadena = new String("Aprendiendo a programar en javaScript");
 console.log(objCadena);
 ```
 
 :key:**IMPORTANTE:**
->La cadena carga en una estructura tipo **Array** y el primer caracter tiene la posición 0 (cero) 
+>La cadena carga en una estructura tipo **Array** y el primer carácter tiene la posición 0 (cero)
 
 
 ## Convertir mayúsculas y minúsculas
-Para realizar este tipo de conversiones, se utilizan los metodos `toLowerCase()` y `toUpperCase() `
+Para realizar este tipo de conversiones, se utilizan los métodos `toLowerCase()` y `toUpperCase() `
 
 :point_right:**EJEMPLO:**
 
@@ -62,7 +62,7 @@ var cadena3 = "JavaScript";
 console.log(cadena4);  // Devuelve "Aprendiendo a programar en JavaScript"
 ```
 
-Otra forma de hacerlo es utilizando el metodo **concat()** de la clase **String()**
+Otra forma de hacerlo es utilizando el método **concat()** de la clase **String()**
   
 :point_right:**EJEMPLO:**
 
@@ -100,7 +100,7 @@ document.write( s7 + "<br />" );   // Devuelve: "10/05/2011"
 ```
 
 ## Extraer un caracter
-Para extraer un caracter de una cadena utilizaremos el  método charAt() de la clase String, acompañado de la posición dentro del Array de caracteres 
+Para extraer un carácter de una cadena utilizaremos el método charAt() de la clase String, acompañado de la posición dentro del Array de caracteres 
 
 :point_right:**EJEMPLO:**
 
@@ -133,7 +133,7 @@ var cadena = "Aprendiendo a programar en JavaScript";
 alert( cadena.indexOf("programar", 23) );  // Devuelve -1
 ```
 
-En este caso se devuelve -1 porque aunque la palabra 'programar' se encuentra en la cadena de texto, la búsqueda comienza después de ella.
+En este caso se devuelve -1 porque, aunque la palabra 'programar' se encuentra en la cadena de texto, la búsqueda comienza después de ella.
 También disponemos del método **lastIndexOf()**, que devolverá la posición de la última ocurrencia de una cadena dentro de otra, o -1 en caso de que el texto a buscar no se encontrase
 
 ```javascript

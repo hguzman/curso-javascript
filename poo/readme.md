@@ -17,20 +17,20 @@ Una clase es una estructura necesaria para crear los diferentes objetos
 ![clase homero](https://ferestrepoca.github.io/paradigmas-de-programacion/poo/poo_teoria/images/philosophy.png)
 
 ## Clase Date
-Javascript como lenguaje de programación implementa el paradigma Orientado a Objetos, por lo cual ya tiene algunas clases definidas por defecto.
+JavaScript como lenguaje de programación implementa el paradigma Orientado a Objetos, por lo cual ya tiene algunas clases definidas por defecto.
 
 La clase Date por ejemplo tiene la estructura necesaria para construir objetos que permiten hacer operaciones con fechas.
 
-```javascript
+```JavaScript
 var fecha = new Date();
 fecha.getFullYear();
 // Muestra el año actual
 ```
 
 **NOTA:**
->De debe tener en cuenta la notación punto para accedes a los atributos y metodos
+>De debe tener en cuenta la notación punto para accedes a los atributos y métodos
 
-### Metodos
+### Métodos
 
 * `getFullYear()`Año (actual)
 * `getHours()`Horas (actual)

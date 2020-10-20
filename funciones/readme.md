@@ -1,8 +1,8 @@
 # Funciones
 
-Es un bloque de codigo empaquetado y aislado que realiza una tarea específica, cone el proposito es reutilizar codigo 
+Es un bloque de código empaquetado y aislado que realiza una tarea específica, con el propósito es reutilizar código 
 
-```javascript
+```JavaScript
 //definimos la función, que en este caso la llamamos saludo()
  
 function saludo() { 
@@ -14,11 +14,11 @@ function saludo() {
 saludo();
 ```
 
-## Funciones con parametros
+## Funciones con parámetros
 
-La funciones tambien permiten recibir parametros (variables) con el fin de alimentar el codigo empaquetado.
+La funciones también permiten recibir parámetros (variables) con el fin de alimentar el código empaquetado.
 
-```javascript
+```JavaScript
 function suma(num1, num2, num3){
  var suma;
  suma = num1 + num2 + num3;
@@ -34,17 +34,17 @@ suma(n1, n2, n3);
 ```
 
 :key: **EJERCICIO:**
-Hacer un programa que utilice una función para realizar operaciones matemáticas basicas, la función debe recibir 3 parametros como se describe a continuación
-* Parametro 1: Un numero que indica la operación que se realizara (1 = Suma, 2 = resta, 3 = Multiplicación, 4 = división)
-* Parametro 2: Primer número objeto de la operación matemática
-* Parametro 3: Segundo número objeto de la operación matemática
+Hacer un programa que utilice una función para realizar operaciones matemáticas básicas, la función debe recibir 3 parámetros como se describe a continuación
+* Parámetro 1: Un número que indica la operación que se realizara (1 = Suma, 2 = resta, 3 = Multiplicación, 4 = división)
+* Parámetro 2: Primer número objeto de la operación matemática
+* Parámetro 3: Segundo número objeto de la operación matemática
 
 
 ## Funciones que devuelven valores
 
-Una de las caracterisiticas mas importantes de una función es que pueda devolver un valor, esta caracteristica permite matener independencia del programa principal.
+Una de las características más importantes de una función es que pueda devolver un valor, esta característica permite mantener independencia del programa principal.
 
-```javascript
+```JavaScript
 function suma(num1, num2){
   var n = num1 + num2;
   return n;
@@ -54,4 +54,3 @@ var resultado = suma(3, 5);
 
 document.write('La suma es: ', resultado);
 ```
-
