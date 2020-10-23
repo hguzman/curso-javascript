@@ -18,6 +18,7 @@ Curso de javascript SENA
 6. [Funciones](funciones/readme.md)
      1. Funciones con parametros
      2. Funciones que devuelven valores
+     3. Funciones flecha
 7. [POO (Programación orientada a objetos)](poo/readme.md)
      1. Clases
      2. Clase Date
@@ -30,3 +31,4 @@ Curso de javascript SENA
         5. Convertir a cadena de caracteres
         6. Extraer un caracter
         7. Buscar en una cadena
+8. [Promesas](promesas/readme.md)
