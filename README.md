@@ -4,6 +4,7 @@ Curso de javascript SENA
 1. [Introducción](introduccion/readme.md)
      1. ¿Qué es JavaScript?
      2. Primera aplicación
+2. [Variables](variables/readme.md)
 2. [Ciclos](ciclos/readme.md)
      1. Mientras que (While)
      2. Haga hasta (do/while)
