@@ -55,3 +55,20 @@ var resultado = suma(3, 5);
 document.write('La suma es: ', resultado);
 ```
 
+
+## Funciones flecha (Arrow functions)
+
+Las arrow functions es una nueva forma que trae Javascript para escribir funciones, para explicar su sintaxis usaré el mismo ejemplo que se usó en la parte de **Funciones que devuelven valores**
+
+```javascript
+const suma = () => {
+  let n = num1 + num2;
+  return n;
+}
+
+let resultado = suma(3, 5);
+
+document.write('La suma es: ', resultado);
+```
+
+Como se ve en el ejemplo anterior la palabra **function** fue remplazada por una flecha (=>) por eso el nombre de funciones flecha.
