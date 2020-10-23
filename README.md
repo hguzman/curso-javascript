@@ -3,6 +3,7 @@ Curso de javascript SENA
 
 1. [Introducción](introduccion/readme.md)
      1. ¿Qué es JavaScript?
+     2. Primera aplicación
 2. [Cadenas](cadenas/readme.md)
      1. Instanciar un objeto String
      2. Convertir mayúsculas y minúscula
