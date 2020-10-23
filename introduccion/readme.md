@@ -1,4 +1,6 @@
-# ¿Qué es JavaScript?
+# Introducción
+
+## ¿Qué es JavaScript?
 
 ## Primera aplicación
 
