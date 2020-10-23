@@ -24,3 +24,5 @@ Curso de javascript SENA
      1. Clases
      2. Clase Date
      3. Clase Array
+     4. Clase String
+        1. Instanciar un objeto String
