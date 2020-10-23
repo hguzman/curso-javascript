@@ -2,6 +2,8 @@
 
 ## ¿Qué es JavaScript?
 
+** EMERSON ***
+
 ## Primera aplicación
 
 Nuestra primera aplicación realizara el típico "Hola Mundo", creando un nuevo objeto en el DOM.
