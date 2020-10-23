@@ -5,15 +5,17 @@ Curso de javascript SENA
      1. ¿Qué es JavaScript?
      2. Primera aplicación
 2. [Variables](variables/readme.md)
-2. [Ciclos](ciclos/readme.md)
+    1. Tipos de variables
+    2. Datos por teclado    
+3. [Ciclos](ciclos/readme.md)
      1. Mientras que (While)
      2. Haga hasta (do/while)
      3. Para (for)
-3. [Acumuladores](acumuladores/readme.md)
-4. [Funciones](funciones/readme.md)
+4. [Acumuladores](acumuladores/readme.md)
+5. [Funciones](funciones/readme.md)
      1. Funciones con parametros
      2. Funciones que devuelven valores
-5. [POO (Programación orientada a objetos)](poo/readme.md)
+6. [POO (Programación orientada a objetos)](poo/readme.md)
      1. Clases
      2. Clase Date
      3. Clase Array
