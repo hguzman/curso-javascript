@@ -1,12 +1,12 @@
 # Variables
 
-Es uno de los elementos mas básicos en los lenguajes de programación.
+Es uno de los elementos más básicos en los lenguajes de programación.
 
 Para crear variables, se debe utilizar la sentencia `var`o `let`
 
 ## Tipos de variables
 
-Codigo de ejemplo para crear variables de diferentes tipos
+Código de ejemplo para crear variables de diferentes tipos
 
 ```javaScript
 var nombre = 'Pepito';
@@ -20,6 +20,7 @@ var aprobado = false;
 Podemos solicitar que el usuario le de valor a las variables
 
 ```javaScript
-nombre = prompt('Introduce tú nombre','');
-altura = prompt('Introduce tú altura','');
+nombre = prompt ('Introduce tú nombre','');
+altura = prompt ('Introduce tú altura','');
 ```
+

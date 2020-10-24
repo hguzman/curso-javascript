@@ -3,7 +3,7 @@
 ## Condicionales simples
 
 ```javaScript
-if (){
+if () {
   // Instrucciones si cumple
 }
 ```
@@ -11,9 +11,10 @@ if (){
 ## Condicionales dobles
 
 ```javaScript
-if (){
+if () {
   // Instrucciones si cumple
-}else{
+} else {
   // Instrucciones si NO cumple
 }
 ```
+

@@ -6,11 +6,12 @@ Es una variable que incremento o decremento con valores **inconstantes** durante
 var n = 1;
 var suma = 0;
 var num;
-while (n <= 3){
-  num = prompt('Instroduzca número:', '');
+while (n <= 3) {
+  num = prompt ('Instroduzca número:', '');
   num = parseInt(num);
-  suma = suma + num;
+  suma = suma + núm.;
   n = n + 1;
 }
-document.write("La suma de todos los numeros es: " + suma);
+document. write ("La suma de todos los números es: " + suma);
 ```
+
