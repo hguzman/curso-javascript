@@ -1,4 +1,4 @@
-# curso-javascript
+# Curso JavaScript
 Curso de javascript SENA
 
 1. [Introducción](introduccion/readme.md)
