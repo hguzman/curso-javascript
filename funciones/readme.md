@@ -87,3 +87,18 @@ function alertUser() {
 <input type="button" name="oneButton" value="Press Me!" onClick="alertUser()">
 </FORM>
 ```
+
+Llamado a una función para realizar cambios en objetos del DOM mediante notación de punto
+
+```javascript
+function upperMe() {
+ document.converter.output.value = document.converter.input.value.toUpperCase()
+}
+```
+
+```html
+<FORM NAME="converter">
+ <INPUT TYPE="text" NAME="input" VALUE="sample" onChange="upperMe()"><BR>
+ <INPUT TYPE="text" NAME="output" VALUE="">
+</FORM>
+```
