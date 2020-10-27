@@ -72,3 +72,18 @@ document.write('La suma es: ', resultado);
 ```
 
 Como se ve en el ejemplo anterior la palabra **function** fue remplazada por una flecha (=>) por eso el nombre de funciones flecha.
+
+## Llamar a una función desde un botón
+
+```javascript
+function alertUser() {
+ alert(“Ouch!”);
+}
+```
+
+```html
+<form>
+<input type="text" name="entry">
+<input type="button" name="oneButton" value="Press Me!" onClick="alertUser()">
+</FORM>
+```
