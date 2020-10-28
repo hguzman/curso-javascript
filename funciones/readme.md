@@ -77,15 +77,15 @@ Como se ve en el ejemplo anterior la palabra **function** fue remplazada por una
 
 ```javascript
 function alertUser() {
- alert(“Ouch!”);
+ alert("Hola");
 }
 ```
 
 ```html
 <form>
-<input type="text" name="entry">
-<input type="button" name="oneButton" value="Press Me!" onClick="alertUser()">
-</FORM>
+ <input type="text" name="entry">
+ <input type="button" name="oneButton" value="Press Me!" onClick="alertUser()">
+</form>
 ```
 
 Llamado a una función para realizar cambios en objetos del DOM mediante notación de punto
