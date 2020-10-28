@@ -61,8 +61,8 @@ document.write('La suma es: ', resultado);
 Las arrow functions es una nueva forma que trae Javascript para escribir funciones, para explicar su sintaxis usaré el mismo ejemplo que se usó en la parte de **Funciones que devuelven valores**
 
 ```javascript
-const suma = () => {
-  let n = num1 + num2;
+const suma = (num1, num2) => {
+  let n = num1 + num2; 
   return n;
 }
 
