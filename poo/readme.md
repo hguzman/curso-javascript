@@ -36,3 +36,7 @@ fecha.getFullYear();
 * `getHours()`Horas (actual)
 * `getMinutes()` Minutos (actual)
 * `getSeconds()`Segundos (actual)
+
+### Reto
+
+![ejemplo fecha](poo/img/fecha.png)
