@@ -40,3 +40,30 @@ fecha.getFullYear();
 ### Reto
 
 ![ejemplo fecha](img/fecha.png)
+
+## Clase Array
+Es una estructura de programación que permite implementar un vector.
+
+```javascript
+var vector = new Array(3);
+vector[0] = 3;
+vector[1] = 1;
+vector[2] = 7;
+document.write(vector[0],'<br>');
+document.write(vector[1],'<br>');
+document.write(vector[2],'<br>');
+document.write('La longitud del array es: ', vector.length);
+```
+
+**NOTA:**
+>Cuando los array tienen muchos elementos se debe utilizar un ciclo, uno de los ciclos mas utilizados para este proposito es el _para_.
+
+## Clase Math
+Esta clase provee los metodos necesarios para realizar operaciones matemáticas complejas. Ej: seno, coseno, potencias
+
+```javascript
+var num = new Number(Math.random()*10);
+document.write('El número aleatorio es: ', num);
+document.write('<br>');
+document.write('Su raiz cuadrada es: ', Math.sqrt(num));
+```
