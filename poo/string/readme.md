@@ -151,3 +151,7 @@ alert( cadena.search("JavaScript") );  // Devuelve 27
 
 :key:**IMPORTANTE:**
 >El método **search()** es usado principalmente con expresiones regulares.
+
+**RETO:**
+Una función llamada "letra", que reciba 2 parámetros, una cadena de caracteres, y un índice. La función devolverá la letra cuyo índice ocupe en la cadena. Por ejemplo, si tengo la cadena "Hola", y llamo a la función, le paso la cadena "Hola" y de índice el número 1, el programa devolverá una "o"...O sea, la letra que ocupa la posición del índice en la cadena.
+Se debe utilizar un formulario
