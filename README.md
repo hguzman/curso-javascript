@@ -32,4 +32,6 @@ Curso de javascript SENA
         5. Convertir a cadena de caracteres
         6. Extraer un caracter
         7. Buscar en una cadena
-8. [Promesas](promesas/readme.md)
+8. [Formularios](formularios/readme.md)
+9. [Selectores](selectores/readme.md)
+10. [Promesas](promesas/readme.md)
