@@ -39,4 +39,4 @@ fecha.getFullYear();
 
 ### Reto
 
-![ejemplo fecha](poo/img/fecha.png)
+![ejemplo fecha](img/fecha.png)
