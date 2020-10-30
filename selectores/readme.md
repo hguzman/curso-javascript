@@ -11,3 +11,10 @@ Metodos utilizados para obtener objetos del DOM
 ## Selectores mas usados
 
 - `E#myId` un elemento E con ID igual a myID
+- `E[foo]` un elemento E con un atributo foo
+- `E[foo="bar"]` un elemento E cuyo valor de atributo foo es exactamente igual a bar
+- `E[foo~="bar"]` un elemento E cuyo valor de atributo foo es una lista de valores separados por espacios en blanco, uno de los cuales es exactamente igual a bar
+- `E[foo^="bar"]` un elemento E cuyo valor de atributo foo comienza exactamente con el string bar
+- `E[foo$="bar"]` un elemento E cuyo valor de atributo foo finaliza exactamente el string bar
+- `E[foo*="bar"]` un elemento E cuyo valor de atributo foo contiene el substring bar
+- `E:visited` un elemento E que es el origen de un hipervínculo cuyo destino ya se ha visitado
