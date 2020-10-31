@@ -24,7 +24,7 @@ Curso de javascript SENA
      2. Clase Date
      3. Clase Array
      4. Clase Math
-     5. [Clase String](poo/string/readme.md)
+     5. Clase String
         1. Instanciar un objeto String
         2. Convertir mayúsculas y minúscula
         3. Longitud de una cadena
