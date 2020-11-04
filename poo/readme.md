@@ -21,3 +21,4 @@ Una clase es una estructura necesaria para crear los diferentes objetos
 - [Clase Date](date/readme.md)
 - [Clase Array](array/readme.md)
 - [Clase Math](math/readme.md)
+- [Clase String](string/readme.md)
