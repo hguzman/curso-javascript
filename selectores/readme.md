@@ -18,3 +18,14 @@ Metodos utilizados para obtener objetos del DOM
 - `E[foo$="bar"]` un elemento E cuyo valor de atributo foo finaliza exactamente el string bar
 - `E[foo*="bar"]` un elemento E cuyo valor de atributo foo contiene el substring bar
 - `E:visited` un elemento E que es el origen de un hipervínculo cuyo destino ya se ha visitado
+
+## Otros selectores
+
+- getElementsByTagName
+- querySelector
+- lastElementChild
+
+## Cambiar propiedades de CSS a través de JS
+
+`document.querySelector("h1").style.visibility = "hidden";`
+`document.querySelector("h1").classList.add("decorado");
