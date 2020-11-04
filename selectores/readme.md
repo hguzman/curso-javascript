@@ -28,4 +28,4 @@ Metodos utilizados para obtener objetos del DOM
 ## Cambiar propiedades de CSS a través de JS
 
 - `document.querySelector("h1").style.visibility = "hidden";`
-- `document.querySelector("h1").classList.add("decorado");
+- `document.querySelector("h1").classList.add("decorado");`
