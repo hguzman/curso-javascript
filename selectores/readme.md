@@ -22,7 +22,6 @@ Metodos utilizados para obtener objetos del DOM
 ## Otros selectores
 
 - getElementsByTagName
-- querySelector
 - lastElementChild
 
 ## Cambiar propiedades de CSS a través de JS
