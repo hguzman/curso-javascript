@@ -31,3 +31,6 @@ Metodos utilizados para obtener objetos del DOM
 - `document.querySelector("h1").classList.add("decorado");`
 - `document.getElementsByClassName('someclass').style = "NewclassName";`
 - `document.getElementById(id).style.property = 'new style'`
+- `document.getElementsByTagName("li");`
+- `pic = document.getElementById("Geosam");`
+- `pic.src = "sam.jpg";`
