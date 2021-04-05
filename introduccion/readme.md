@@ -7,6 +7,12 @@ JavaScript no es un lenguaje de programación propiamente dicho como C, C++ etc.
 
 JavaScript es un lenguaje interpretado que se embebe en una página web HTML. Un lenguaje interpretado significa que a las instrucciones las analiza y procesa el navegador en el momento que deben ser ejecutadas.
 
+### ¿Por qué se llama JavaScript?
+
+Cuando JavaScript fue creado, inicialmente tenía otro nombre: “LiveScript”. Pero Java era muy popular en ese momento, así que se decidió que el posicionamiento de un nuevo lenguaje como un “Hermano menor” de Java ayudaría.
+
+Pero a medida que evolucionaba, JavaScript se convirtió en un lenguaje completamente independiente con su propia especificación llamada ECMAScript, y ahora no tiene ninguna relación con Java.
+
 ## Primera aplicación
 
 Nuestra primera aplicación realizara el típico "Hola Mundo", creando un nuevo objeto en el DOM.
