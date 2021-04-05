@@ -77,6 +77,8 @@ console.log(cadena4);  // Devuelve "Aprendiendo a programar en JavaScript"
 ```
 ## Otra manera de concatenar es con los template o plantillas.
 
+:point_right:**EJEMPLO:**
+
 let nombre = "David";
 let apellido = "Gomez";
 
