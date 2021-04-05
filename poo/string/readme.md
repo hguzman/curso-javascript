@@ -75,6 +75,15 @@ var cadena4 = cadena1.concat( cadena2, " ", cadena3 );
 
 console.log(cadena4);  // Devuelve "Aprendiendo a programar en JavaScript"
 ```
+## Otra manera de concatenar es con los template o plantillas.
+
+:point_right:**EJEMPLO:**
+
+let nombre = "David";
+let apellido = "Gomez";
+
+console.log(`Hola mi nombre completo es: ${nombre} ${apellido}`);
+
 
 ## Convertir a cadena de caracteres
 Podemos convertir un número a cadena concatenando un número con una cadena usando el operador `+`, o bien con la función String() (**no el Objeto del mismo nombre**)
